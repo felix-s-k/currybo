@@ -1,0 +1,53 @@
+[project]
+name = "currybo"
+version = "0.1.0"
+requires-python = ">=3.9"
+
+dependencies = [
+    "torch >= 2.2.1",
+    "botorch >= 0.10.0",
+    "gpytorch >= 1.11",
+    "matplotlib >= 3.8.3",
+    "imageio >= 2.34.0",
+    "pandas >= 2.2.1",
+    "rdkit >= 2023.9.5",
+    "gauche >= 0.1.6",
+    "pypalettes",
+    "pub_ready_plots",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=21.12b0",
+    "flake8>=6.1.0",
+    "isort>=5.12.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = { find = { where = ["src"] } }
+
+[tool.pytest.ini_options]
+addopts = "--cov=currybo --cov-report xml --cov-report html --cov-report term --cov-config=pyproject.toml --color=yes"
+testpaths = "tests/"
+python_files = "test_*.py"
+pythonpath = "."
+
+[tool.coverage.run]
+# branch = true
+source = ["src"]
+omit = ["*__init__.py", "visualizer.py", "src/currybo/test_functions/chemistry_datasets/*.py"]
+command_line = "-m pytest -v"
+
+[tool.coverage.report]
+show_missing = true
+
+[tool.coverage.xml]
+output = "coverage.xml"
+
+[tool.flake8]
+max-line-length = 160
+ignore = "D100, D104, D107"

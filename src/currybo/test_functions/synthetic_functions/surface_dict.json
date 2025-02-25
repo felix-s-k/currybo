@@ -1,0 +1,350 @@
+{
+    "Beale": {
+        "problem_family": "ParametrizedBeale",
+        "num_problems": 20,
+        "negate": true,
+        "parameter_ranges": {
+            "a": [
+                0,
+                3.0
+            ],
+            "b": [
+                0,
+                4.5
+            ],
+            "c": [
+                0,
+                4.5
+            ]
+        },
+        "external_parameter_ranges": {
+            "a": [
+                3.0,
+                6.0
+            ],
+            "b": [
+                4.5,
+                9
+            ],
+            "c": [
+                4.5,
+                9.0
+            ]
+        }
+    },
+    "Branin": {
+        "problem_family": "ParametrizedBranin",
+        "num_problems": 20,
+        "negate": true,
+        "parameter_ranges": {
+            "b": [
+                1.0,
+                8.0
+            ],
+            "c": [
+                1.0,
+                8.0
+            ]
+        },
+        "external_parameter_ranges": {
+            "b": [
+                8.0,
+                15
+            ],
+            "c": [
+                8.0,
+                15.0
+            ]
+        }
+    },
+    "Bukin": {
+        "problem_family": "ParametrizedBukin",
+        "num_problems": 20,
+        "negate": true,
+        "parameter_ranges": {
+            "a": [
+                50.0,
+                150.0
+            ],
+            "b": [
+                0.01,
+                0.1
+            ],
+            "c": [
+                5.0,
+                20.0
+            ]
+        },
+        "external_parameter_ranges": {
+            "a": [
+                150.0,
+                350.0
+            ],
+            "b": [
+                0.12,
+                1
+            ],
+            "c": [
+                25.0,
+                50.0
+            ]
+        }
+    },
+    "Dropwave": {
+        "problem_family": "ParametrizedDropwave",
+        "num_problems": 20,
+        "negate": true,
+        "parameter_ranges": {
+            "a": [
+                0.5,
+                2.0
+            ],
+            "b": [
+                10.0,
+                20.0
+            ],
+            "c": [
+                0.2,
+                1.0
+            ],
+            "d": [
+                1.0,
+                10.0
+            ]
+        },
+        "external_parameter_ranges": {
+            "a": [
+                2.5,
+                5.0
+            ],
+            "b": [
+                20.0,
+                40.0
+            ],
+            "c": [
+                1.2,
+                3.0
+            ],
+            "d": [
+                10.0,
+                50.0
+            ]
+        }
+    },
+    "Eggholder": {
+        "problem_family": "ParametrizedEggholder",
+        "num_problems": 20,
+        "negate": true,
+        "parameter_ranges": {
+            "a": [
+                20.0,
+                100.0
+            ],
+            "b": [
+                1.0,
+                5.0
+            ],
+            "c": [
+                10.0,
+                100.0
+            ],
+            "d": [
+                20.0,
+                100.0
+            ]
+        },
+        "external_parameter_ranges": {
+            "a": [
+                100.0,
+                150.0
+            ],
+            "b": [
+                5.0,
+                10.0
+            ],
+            "c": [
+                100.0,
+                200.0
+            ],
+            "d": [
+                100.0,
+                200.0
+            ]
+        }
+    },
+    "Holdertable": {
+        "problem_family": "ParametrizedHoldertable",
+        "num_problems": 20,
+        "negate": true,
+        "parameter_ranges": {
+            "a": [
+                0.5,
+                2.0
+            ]
+        },
+        "external_parameter_ranges": {
+            "a": [
+                2.5,
+                4.0
+            ]
+        }
+    },
+    "SixHumpCamel": {
+        "problem_family": "ParametrizedSixHumpCamel",
+        "num_problems": 20,
+        "negate": true,
+        "parameter_ranges": {
+            "a": [
+                2.0,
+                10.0
+            ],
+            "b": [
+                -10.0,
+                -1.0
+            ],
+            "c": [
+                2.0,
+                10.0
+            ]
+        },
+        "external_parameter_ranges": {
+            "a": [
+                10.0,
+                20.0
+            ],
+            "b": [
+                -20.0,
+                -10.0
+            ],
+            "c": [
+                12.0,
+                20.0
+            ]
+        }
+    },
+    "ThreeHumpCamel": {
+        "problem_family": "ParametrizedThreeHumpCamel",
+        "num_problems": 20,
+        "negate": true,
+        "parameter_ranges": {
+            "a": [
+                1.0,
+                10.0
+            ],
+            "b": [
+                0.5,
+                5.0
+            ],
+            "c": [
+                2.0,
+                10.0
+            ]
+        },
+        "external_parameter_ranges": {
+            "a": [
+                10.0,
+                20.0
+            ],
+            "b": [
+                5.5,
+                10.0
+            ],
+            "c": [
+                10.0,
+                20.0
+            ]
+        }
+    },
+    "Rastrigin": {
+        "problem_family": "ParametrizedRastrigin",
+        "num_problems": 20,
+        "negate": true,
+        "parameter_ranges": {
+            "a": [
+                5.0,
+                20.0
+            ],
+            "b": [
+                -20.0,
+                -5.0
+            ]
+        },
+        "external_parameter_ranges": {
+            "a": [
+                20.0,
+                40.0
+            ],
+            "b": [
+                -5.0,
+                0.0
+            ]
+        }
+    },
+    "Dixonprice": {
+        "problem_family": "ParametrizedDixonprice",
+        "num_problems": 20,
+        "negate": true,
+        "parameter_ranges": {
+            "a": [
+                1.0,
+                5.0
+            ],
+            "b": [
+                1.0,
+                5.0
+            ]
+        },
+        "external_parameter_ranges": {
+            "a": [
+                5.0,
+                10.0
+            ],
+            "b": [
+                5.0,
+                10.0
+            ]
+        }
+    },
+    "Griewank": {
+        "problem_family": "ParametrizedGriewank",
+        "num_problems": 20,
+        "negate": true,
+        "parameter_ranges": {
+            "a": [
+                2000.0,
+                6000.0
+            ]
+        },
+        "external_parameter_ranges": {
+            "a": [
+                6000.0,
+                10000.0
+            ]
+        }
+    },
+    "Levy": {
+        "problem_family": "ParametrizedLevy",
+        "num_problems": 20,
+        "negate": true,
+        "parameter_ranges": {
+            "a": [
+                0.5,
+                5.0
+            ],
+            "b": [
+                0.5,
+                5.0
+            ]
+        },
+        "external_parameter_ranges": {
+            "a": [
+                5.0,
+                10.0
+            ],
+            "b": [
+                5.0,
+                10.0
+            ]
+        }
+    }
+}
